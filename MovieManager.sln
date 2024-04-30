@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Api", "MovieManager.Api\MovieManager.Api.csproj", "{8D228EA4-7898-44E8-AE78-6B933C8D854A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Contract", "MovieManager.Contract\MovieManager.Contract.csproj", "{9AC08F44-FA92-480F-8291-3EA8ACCD38F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Data", "MovieManager.Data\MovieManager.Data.csproj", "{45C5434F-B071-4CC2-9EF6-3BEE4128209A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManager.Service", "MovieManager.Service\MovieManager.Service.csproj", "{F3C324BF-7BC8-468B-B6CC-CD3299C0C65D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{213DE506-8FAF-448D-B848-F8A70D7D4C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManager.Api.EndToEnd.Tests", "MovieManager.Api.EndToEnd.Tests\MovieManager.Api.EndToEnd.Tests.csproj", "{96E6CDD3-ED22-4B0C-9059-008789502A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManager.Service.Tests", "MovieManager.Service.Tests\MovieManager.Service.Tests.csproj", "{0F0C57A8-3CD6-4DB2-9025-C4F077063090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D228EA4-7898-44E8-AE78-6B933C8D854A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D228EA4-7898-44E8-AE78-6B933C8D854A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D228EA4-7898-44E8-AE78-6B933C8D854A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D228EA4-7898-44E8-AE78-6B933C8D854A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC08F44-FA92-480F-8291-3EA8ACCD38F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC08F44-FA92-480F-8291-3EA8ACCD38F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC08F44-FA92-480F-8291-3EA8ACCD38F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC08F44-FA92-480F-8291-3EA8ACCD38F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C5434F-B071-4CC2-9EF6-3BEE4128209A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C5434F-B071-4CC2-9EF6-3BEE4128209A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C5434F-B071-4CC2-9EF6-3BEE4128209A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C5434F-B071-4CC2-9EF6-3BEE4128209A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C324BF-7BC8-468B-B6CC-CD3299C0C65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C324BF-7BC8-468B-B6CC-CD3299C0C65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C324BF-7BC8-468B-B6CC-CD3299C0C65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C324BF-7BC8-468B-B6CC-CD3299C0C65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E6CDD3-ED22-4B0C-9059-008789502A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E6CDD3-ED22-4B0C-9059-008789502A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E6CDD3-ED22-4B0C-9059-008789502A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E6CDD3-ED22-4B0C-9059-008789502A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0C57A8-3CD6-4DB2-9025-C4F077063090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0C57A8-3CD6-4DB2-9025-C4F077063090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0C57A8-3CD6-4DB2-9025-C4F077063090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0C57A8-3CD6-4DB2-9025-C4F077063090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96E6CDD3-ED22-4B0C-9059-008789502A81} = {213DE506-8FAF-448D-B848-F8A70D7D4C45}
+		{0F0C57A8-3CD6-4DB2-9025-C4F077063090} = {213DE506-8FAF-448D-B848-F8A70D7D4C45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC434F7F-CDA5-4363-8A0C-7F4D944CC622}
+	EndGlobalSection
+EndGlobal
